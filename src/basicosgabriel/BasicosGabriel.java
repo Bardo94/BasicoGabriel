@@ -1,21 +1,30 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package basicosgabriel;
 
 /**
  *
  * @author Gabriel
  */
-public class BasicosGabriel {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public class BasicosGabriel
+{
+    public static void main(String[] args)
+    {
+        numericos();
     }
     
+    public static void numericos()
+    {
+        //Declaración
+        int varInt;
+        float varFloat;
+
+        //Asignación
+        varInt = 1;
+        varFloat = 0.5f;
+
+        //Presentación
+        System.out.println("Valor entero:");
+        System.out.println(varInt);
+        System.out.println("Valor con decimales:");
+        System.out.println(varFloat);
+    }
 }
