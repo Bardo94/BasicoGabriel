@@ -1,21 +1,26 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package basicosgabriel;
 
 /**
  *
  * @author Gabriel
  */
-public class BasicosGabriel {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public class BasicosGabriel
+{
+    public static void main(String[] args)
+    {
+        cadenas();
     }
     
+    public static void cadenas()
+    {
+        //Declaración
+        String varString;
+
+        //Asignación
+        varString = "Hola, esto es un ejemplo.";
+
+        //Presentación
+        System.out.println("Valor de una variable String:");
+        System.out.println(varString);
+    }
 }
